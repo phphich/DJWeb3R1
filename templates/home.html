@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+    <div class="mt-4 p-5 bg-warning text-white rounded">
+      <h1>Welcome to DigiTech Service Co.,Ltd. </h1>
+      <p>ยินดีต้อนรับสู่เว็บไซต์ DigiTech Service Co., Ltd.
+          เราคือบริษัทชั้นนำแนวหน้าของไทยที่ให้บริการระบบเทคโนโลยีธุรกิจดิจิทัล การพัฒนาซอฟต์แวร์
+          การวางระบบสารสนเทศ การพัฒนาบุคลากรด้านดิจิทัล เพื่อการเปลี่ยนผ่านองค์กรไปสู่องค์กร
+          อัจฉริยะ
+      </p>
+      <div class="row">
+          <div class="col-lg-4">
+              <img src="{% static 'images/girl.jpg' %}"
+                   width="200px" height="200px" class="rounded-circle">
+          </div>
+          <div class="col-lg-8 text-primary "> 
+              <br><br>
+              Awards: "Certificate of Best Digital Company 2022,
+              Champaign of New Business Era 2020,
+              Certificate of Good grow up management organization"
+          </div>
+      </div>
+    </div>
+    <br>
+        <div class="text-center">
+            <div class="spinner-grow text-muted"></div>
+            <div class="spinner-grow text-primary"></div>
+            <div class="spinner-border text-success"></div>
+            <div class="spinner-border text-success"></div>
+            <div class="spinner-grow text-primary"></div>
+            <div class="spinner-grow text-muted"></div>
+        </div>
+    <br><br><br><br><br><br><br>
+{% endblock %}
